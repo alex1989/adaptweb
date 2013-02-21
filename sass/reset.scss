@@ -1,4 +1,4 @@
-
+$debug: true !default
 
 html {
 	color: #000;
@@ -32,4 +32,21 @@ a {
 	color: #444444;
 	text-decoration: none;
 	border-bottom: 2px dashed #444444;
+}
+
+nav {
+	display: block;
+	@if $debug 
+		border: 1px solid #444;
+	ul {
+    	margin: 0;
+    	padding: 0;
+  	}
+  	ul {
+    	list-style: none;
+  	}
+  	li {
+  		float: left;
+  		padding
+  	}
 }

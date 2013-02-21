@@ -41,12 +41,13 @@ nav {
 	ul {
     	margin: 0;
     	padding: 0;
-  	}
-  	ul {
-    	list-style: none;
+  	   	list-style: none;
   	}
   	li {
   		float: left;
   		padding
+  		a {
+  			text-decoration: none;
+  		}
   	}
 }
